@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="kr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="basic.css">
     <title>DAYS Toy-Project</title>
 </head>
-
+    <style> 
+        #wrapper{width:900px;margin:0 auto;background-color:#ddd;padding:10px;}
+        header{text-align:center;width:100%;background-color:#eee;display:block;height:80px;line-height:80px;margin-bottom:10px;}
+        nav{display:block;width:200px;background-color:#999;padding:10px 0;float:left;margin-right:20px;}
+        section{margin-bottom:10px;display:block;width:680px;background-color:#999;float:right;}
+        footer{clear:both;text-align:center;width:100%;background-color:#eee;display:block;height:50px;line-height:50px;}
+    </style>
 <body>
-    <header>
-        <h1>DAYS Project Page</h1>
-        <nav>
-            <h1>navigation</h1>
+    <div id="wrapper">
+        <header>
+        문서 제목
+        </header>
+        <nav><!-- 메뉴부분 -->
             <ul>
-                <li>메뉴1</li>
-                <li>메뉴2</li>
+            <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+            <li>메뉴4</li>
+            <li>메뉴5</li>
+            </ul>
         </nav>
-    </header>
-
-    <article>
-        <h1>Article 제목 </h1>
-        <p> Article 내용 </p>        
+    <section id="content">
+    <article id="about">
+        <h1>문서 제목1</h1>
+        <sidebar>
+            <h2>문서  부제목1</h2>
+            <p>문서 내용1</p>
+        </sidebar>
     </article>
-
-    <aside>
-        <section>
-            <h1>섹션 제목</h1>
-            <blockquote>섹션 내용</blockquote>
-        </section>
-    </aside>
-
-</body>
+    </section>
+        <footer>풋터부분</footer>  
+    </div>
+    </body>
 </html>
