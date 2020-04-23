@@ -1,16 +1,3 @@
 *{
-    color:white;
-}
-
-.titleBox {
-    background-color: teal;
-    font-size: 20;
-    height: 20%;
-    width: 100%;
-}
-
-.bottomBox {
-    background-color: turquoise;
-    border: wheat;
-    border-radius: 3px;
+    color:teal;
 }
