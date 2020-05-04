@@ -1,0 +1,43 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+body {
+  background: url("https://cdn.pixabay.com/photo/2014/02/07/10/19/winter-260817_1280.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.button {
+  width:100px;
+  background-color: #f8585b;
+  border: none;
+  color:#fff;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius:10px;
+}
+
+.button:hover {
+  background-color: salmon;
+  color: aliceblue;
+}
+
+#center_button {
+  position:absolute;
+  top:90%;
+  left:5%;
+  width:100px;
+  height:100px;
+  margin:-50px 0 0 -50px;
+}
+
+
