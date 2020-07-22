@@ -16,6 +16,10 @@
   <!-- Custom styles for this template -->
   <link href="../css/contents_main.css" rel="stylesheet">
 
+<script>
+
+</script>
+
 </head>
 
 <body>
@@ -53,7 +57,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <h1 class="mt-5">DAYS Toy-Project</h1>
+          <h1 class="mt-5">TEST 본문</h1>
         </div>
       </div>
     </div>
@@ -64,16 +68,32 @@
   </div>
 
   <div style="
-  position:absolute;
-  top:20%;
-  left:30%;
-  width:500px;
-  height:500px;
-  margin:-50px 0 0 -50px;">
-    <h5>이 페이지에 테스트 콘텐츠를 넣으면 될 것 같아요!</h5>
-    <h5>설문 콘텐츠를 먼저 구성해야 본격적으로 구현할 수 있을 것 같네요!</h5>
-    <img src="예시_image.png" width="500px" height="400px">
-    <h5>우리도 일단 이런식으로 간단하게 만들어보는게 어떨까요?!?!</h5>
+    position:absolute;
+    top:20%;
+    left:30%;
+    width:50%;
+    height:70%;
+    margin:-50px 0 0 -50px;
+    padding: 2%;
+
+    background: url('img/red_transparent_background.png');
+    background: rgba(30, 30, 55, 0.4);
+  ">
+    <form name="fm" method="get" style="font-size: large; font-weight: bolder; color: white;">
+    <p> 성별</p> 
+      <input type="radio" name="chk_sex" value="남자"checked="true">남자
+      <input type="radio" name="chk_sex" value="여자">여자
+    <p></p>
+
+    <p>질문 1</p>
+    <p>
+     <input type="checkbox" name="chk_info1" value="q1_1">질문 1-답1
+     <input type="checkbox" name="chk_info2" value="q1_2">질문 1-답2
+     <input type="checkbox" name="chk_info3" value="q1_3">질문 1-답3
+     <input type="checkbox" name="chk_info4" value="q1_4">질문 1-답4
+    </p>
+
+    </form>
   </div>
   
 
